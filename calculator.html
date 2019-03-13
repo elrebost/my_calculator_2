@@ -9,6 +9,9 @@ function cube(){
 function sine(){
   var num = document.getElementById("n1");
 	num.value = Math.sin(num.value);
+function four(){
+  var num = document.getElementById("n1");
+	num.value = Math.pow(num.value, 4);
 }
 </script>
 </head>
@@ -19,6 +22,7 @@ function sine(){
   <p>
     <button onclick="cube()"> x<sup>3</sup> </button>
     <button onclick="sine()"> sin(x)</sup> </button>
+    <button onclick="four()"> x<sup>4</sup> </button>
   </p>
 </body>
 </html>
